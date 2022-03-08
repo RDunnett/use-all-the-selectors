@@ -1,3 +1,11 @@
+html {
+
+}
+*,
+*::before,
+*::after {
+
+}
 body {
   background-color: #fdf6e3;
 }
