@@ -19,14 +19,14 @@ nav > ul {
 }
 
 #contents, #favs, #facts, #types {
-  color: #93alal;
+  color: #93a1a1;
 }
 
-.dfn:only-child {
+.wrapper > .dfn {
   background-color: #b58900;
 }
 
-.dfn + strong {
+.wrapper > .dfn > strong {
   color: #fff;
 }
 a:not(.no-highlight) {
@@ -53,6 +53,6 @@ ol li:last-child {
   background-color: #586e75;
 }
 
-.types > li:nth-of-type(3) {
+.types > li:nth-child(3n) {
   background-color: #d04b16;
 }
