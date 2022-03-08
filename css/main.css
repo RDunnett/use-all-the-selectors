@@ -1,5 +1,5 @@
 body {
-  background-color: #fdf6e3
+  background-color: #fdf6e3;
 }
 
 header, footer {
@@ -15,7 +15,7 @@ nav > ul {
 }
 
 .wrapper {
-  background-color: #eee8d5
+  background-color: #eee8d5;
 }
 
 #contents, #favs, #facts, #types {
@@ -29,6 +29,7 @@ nav > ul {
 .wrapper > .dfn > strong {
   color: #fff;
 }
+
 a:not(.no-highlight) {
   background-color: #719e07;
 }
